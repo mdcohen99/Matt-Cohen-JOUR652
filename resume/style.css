@@ -8,39 +8,57 @@ BODY {
   font-weight: 400;
 }
 
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /*font size, color and alignment for name on resume*/
-h1 {
+#name {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
-  color: #33485e;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*making my job description bold*/
-strong {
+#title {
   color: #33485e;
-  text-transform:uppercase;
-  font-size:1.5em;
+  text-transform: uppercase;
+  font-size:2em;
+  font-weight: 600px;
+  margin: 20px, 0px, 0px, 0px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 /* adding a background to section headers*/
-h2 {
+.section-header {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
-  color:#fff
+  color: white;
+  margin: 20px 0px 10px 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* setting type for job titles*/
-h3 {
+.job-title {
   font-size:1.5em;
   font-weight:600;
 }
 
 /* setting type for job organization*/
-h4 {
-  font-size:1.5em;
+.organization {
+  font-size:1.25em;
   font-weight:400;
+  margin-bottom: -20px;
 }
 
 h5 {
@@ -49,6 +67,36 @@ h5 {
   font-style:italic;
 }
 
-ul {
-  font-size:1em;
+/* style for grafs*/
+.description {
+  margin: 10px, 0px, 10px, 0px;
+}
+
+/* creating nav bar for contact info*/
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
+/* style for education */
+#degrees {
+  margin: 5px, 0px, 0px, 0px;
+}
+
+/* style for skills */
+
+#do {
+  margin: 5px, 0px, 0px, 0px;
+}
+
+.mission-statement {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
