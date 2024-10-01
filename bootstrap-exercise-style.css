@@ -1,0 +1,29 @@
+.col-md-6 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Special Elite';
+}
+
+h1 {
+    font-family: 'Special Elite';
+}
+
+.navbar-brand {
+        font-family: 'Special Elite';
+}
+
+.btn {
+    font-family: 'Special Elite'
+}
+
+@media only screen and (max-width: 500px) {
+    .h2 {
+        padding-top: 50px;
+    }
+
+    .btn {
+        background-color: teal;
+    }
+}
