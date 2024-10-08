@@ -1,0 +1,55 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+#masthead {
+    text-align: center;
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid white;
+    background-color: black;
+    color: white;
+}
+
+#photo {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#quote {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: x-large;
+    font-style: italic;
+    color: #EEF9F6;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+.headline {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#related {
+    margin: 0 auto;
+    width: 900px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
