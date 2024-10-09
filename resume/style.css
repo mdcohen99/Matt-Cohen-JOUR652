@@ -2,7 +2,7 @@
 
 /* font to be used for all text in resume*/
 BODY {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: Georgia, serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
@@ -26,7 +26,7 @@ BODY {
   margin: 0 auto;
 }
 
-/*making my job description bold*/
+/*making my job description bold
 #title {
   color: #33485e;
   text-transform: uppercase;
@@ -35,17 +35,22 @@ BODY {
   margin: 20px, 0px, 0px, 0px;
   text-align: center;
   padding-top: 40px;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
 }
+  */
 
 /* adding a background to section headers*/
 .section-header {
   font-size:1.5em;
-  text-transform:uppercase;
   background-color:#33485e;
   color: white;
   margin: 20px 0px 10px 0px;
   width: 70%;
   min-width: 300px;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* setting type for job titles*/
@@ -99,4 +104,9 @@ h5 {
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+#photo {
+  width: 100%;
+  margin: 0 auto;
 }
