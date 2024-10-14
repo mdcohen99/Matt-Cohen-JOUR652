@@ -1,0 +1,48 @@
+#container {
+    width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+#headline {
+    font-family: Georgia, Times, serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+#masthead {
+    font-family: Georgia, Times, serif;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#byline {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+}
+
+#subhead {
+    font-family: Georgia, Times, serif;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 10px;
+}
+
+#photos {
+    margin: 0 auto;
+    width: 100%;
+}
