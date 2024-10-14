@@ -60,9 +60,7 @@ Inside the <body>
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
-<div id="apples">text</div>
-
-<div class="fruit">text</div>
+<div class="fruit" id="apples">text</div>
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
