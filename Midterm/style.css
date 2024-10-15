@@ -1,31 +1,26 @@
 #container {
     width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
 
 p {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: black;
 }
 
-#headline {
-    font-family: Georgia, Times, serif;
-    font-size: 2em;
-    padding-bottom: 10px;
-    font-weight: 700;
-}
-
+/*the next set of styling deals with the masthead!*/
 #masthead {
     font-family: Georgia, Times, serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 10px;
     padding: 10px;
     text-align: center;
     font-size: 2em;
+    border: solid;
 }
 
 #byline {
@@ -39,10 +34,57 @@ p {
     font-family: Georgia, Times, serif;
     font-size: 18px;
     font-weight: 1000;
-    padding: 10px;
+    padding: 10px;]
 }
 
 #photos {
     margin: 0 auto;
     width: 100%;
+}
+
+#related {
+    font-style: italic;
+}
+
+#pullquote {
+    background-color: #073048;
+    color: white;
+    font-family: Georgia, Times, serif;
+    padding: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    font-family: Georgia, Times, serif;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.headline {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Georgia, Times, serif;
+    font-size: 39px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#caption {
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-size: 12px;
 }
