@@ -13,6 +13,7 @@ BODY {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  font-family: Georgia;
 }
 
 /*font size, color and alignment for name on resume*/
@@ -41,12 +42,36 @@ BODY {
   */
 
 /* adding a background to section headers*/
-.section-header {
+#section-header-1 {
   font-size:1.5em;
   background-color:#33485e;
   color: white;
   margin: 20px 0px 10px 0px;
-  width: 70%;
+  width: 100%;
+  min-width: 300px;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#section-header-2 {
+  font-size:1.5em;
+  background-color:#33485e;
+  color: white;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+  min-width: 300px;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#section-header-3 {
+  font-size:1.5em;
+  background-color:#33485e;
+  color: white;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
   min-width: 300px;
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
@@ -54,21 +79,21 @@ BODY {
 }
 
 /* setting type for job titles*/
-.job-title {
+#job-title {
   font-size:1.5em;
   font-weight:600;
 }
 
 /* setting type for job organization*/
-.organization {
+.org {
   font-size:1.25em;
   font-weight:400;
-  margin-bottom: -20px;
+  margin-bottom: -18px;
+  margin-top:-20px;
 }
 
-h5 {
+#dates {
   font-size:1em;
-  font-weight:400;
   font-style:italic;
 }
 
@@ -109,4 +134,24 @@ h5 {
 #photo {
   width: 100%;
   margin: 0 auto;
+}
+
+.navbar-brand {
+  font-family: "sweet sans pro";
+}
+
+.nav-item {
+  font-family: "sweet sans pro";
+}
+
+#buttons {
+  text-align: center;
+}
+
+.btn {
+  background-color: #33485e !important;
+}
+
+.btn:hover {
+  background-color: #4E5161 !important;
 }
