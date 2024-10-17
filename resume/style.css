@@ -155,3 +155,9 @@ BODY {
 .btn:hover {
   background-color: #4E5161 !important;
 }
+
+@media only screen and (max-width: 480px) {
+  p {
+    width: 75%;
+  }
+}
