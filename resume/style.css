@@ -158,6 +158,7 @@ BODY {
 
 @media only screen and (max-width: 480px) {
   p {
-    width: 75%;
+    margin: 0 auto;
+    width: 100%
   }
 }
