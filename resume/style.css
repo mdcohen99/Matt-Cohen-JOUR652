@@ -163,3 +163,7 @@ BODY {
     max-width: 440px;
   }
 }
+
+#link {
+  color: #EC713F;
+}
