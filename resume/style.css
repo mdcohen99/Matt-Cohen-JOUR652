@@ -10,7 +10,7 @@ BODY {
 
 #container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 50px;
   font-family: Georgia;
@@ -43,9 +43,9 @@ BODY {
 
 /* adding a background to section headers*/
 #section-header-1 {
-  font-size:1.5em;
-  background-color:#33485e;
-  color: white;
+  font-size: 2.5em;
+  border-bottom: solid #33485e;
+  color: #EC713F;
   margin: 20px 0px 10px 0px;
   width: 100%;
   min-width: 300px;
@@ -55,9 +55,9 @@ BODY {
 }
 
 #section-header-2 {
-  font-size:1.5em;
-  background-color:#33485e;
-  color: white;
+  font-size:2.5em;
+  border-bottom: solid #33485e;
+  color: #EC713F;
   margin: 20px 0px 10px 0px;
   width: 100%;
   min-width: 300px;
@@ -67,9 +67,9 @@ BODY {
 }
 
 #section-header-3 {
-  font-size:1.5em;
-  background-color:#33485e;
-  color: white;
+  font-size:2.5em;
+  border-bottom: solid #33485e;
+  color: #EC713F;
   margin: 20px 0px 10px 0px;
   width: 100%;
   min-width: 300px;
@@ -156,11 +156,21 @@ BODY {
   background-color: #4E5161 !important;
 }
 
-@media only screen and (max-width: 480px) {
-  p {
+
+
+@media only screen and (max-width: 835px) {
+  #container {
     margin: 0 auto;
     width: 100%;
-    max-width: 440px;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
   }
 }
 
