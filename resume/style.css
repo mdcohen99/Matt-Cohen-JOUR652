@@ -116,12 +116,14 @@ BODY {
 /* style for education */
 #degrees {
   margin: 5px, 0px, 0px, 0px;
+  font-size: 18px;
 }
 
 /* style for skills */
 
 #do {
   margin: 5px, 0px, 0px, 0px;
+  font-size: 18px;
 }
 
 .mission-statement {
@@ -175,5 +177,9 @@ BODY {
 }
 
 #link {
-  color: #EC713F;
+  color: #33485e;
+}
+
+#link:hover {
+  color: #4E5161;
 }
