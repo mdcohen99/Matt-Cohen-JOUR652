@@ -119,6 +119,7 @@ BODY {
 #degrees {
   margin: 5px, 0px, 0px, 0px;
   font-size: 18px;
+  text-align: left;
 }
 
 /* style for skills */
@@ -126,6 +127,7 @@ BODY {
 #do {
   margin: 5px, 0px, 0px, 0px;
   font-size: 18px;
+  text-align: left;
 }
 
 .mission-statement {
@@ -191,4 +193,8 @@ BODY {
   width: 75%;
   margin: auto;
   text-align: center;
+}
+
+.ids {
+  text-align: left;
 }
