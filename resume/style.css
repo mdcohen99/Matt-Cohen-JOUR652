@@ -101,6 +101,7 @@ BODY {
 /* style for grafs*/
 .description {
   margin: 10px, 0px, 10px, 0px;
+  text-align: left;
 }
 
 /* creating nav bar for contact info*/
@@ -183,4 +184,11 @@ BODY {
 
 #link:hover {
   color: #4E5161;
+}
+
+.line {
+  border-bottom: 1px solid #444;
+  width: 75%;
+  margin: auto;
+  text-align: center;
 }
