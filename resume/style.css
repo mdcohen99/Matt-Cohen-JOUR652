@@ -81,20 +81,20 @@ BODY {
 
 /* setting type for job titles*/
 #job-title {
-  font-size:1.5em;
+  font-size:2em;
   font-weight:600;
 }
 
 /* setting type for job organization*/
 .org {
-  font-size:1.25em;
+  font-size:1.5em;
   font-weight:400;
   margin-bottom: -18px;
   margin-top:-20px;
 }
 
 #dates {
-  font-size:1em;
+  font-size:1.25em;
   font-style:italic;
 }
 
