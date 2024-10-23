@@ -79,6 +79,18 @@ BODY {
   font-style: normal;
 }
 
+#section-header-4 {
+  font-size:2.5em;
+  border-bottom: solid #33485e;
+  color: #EC713F;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+  min-width: 300px;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* setting type for job titles*/
 #job-title {
   font-size:2em;
@@ -197,4 +209,9 @@ BODY {
 
 .ids {
   text-align: left;
+}
+
+.awards {
+  text-align: left;
+  font-size: 18px;
 }
