@@ -1,14 +1,16 @@
 .headline {
-    font-size: 3em;
+    font-size: 1.75em;
     font-weight: 700;
-    text-align: center;
     font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    text-align: center
 }
 
 .byline {
     font-size: 1em;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
+    padding-top: -20px;
     text-align: center;
 }
 
@@ -21,7 +23,10 @@ p {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 2em;
-    text-align: left;
+    text-align: left; 
+    color: #f23030;
+    border-bottom: solid 2px;
+    width: 50%;
 }
 
 .grimace {
@@ -45,7 +50,7 @@ footer {
 
 .caption {
     font-family: "Montserrat", sans-serif;
-    color: lightgray;
+    color: gray;
     font-style: italic;
     font-size: 12px;
     padding-left: 30px;
@@ -57,6 +62,72 @@ footer {
     text-align: center;
 }
 
+.sidebar {
+    border: solid 2px #f23030;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.side-hed {
+    font-family: "Montserrat", sans-serif;
+    color: #f23030;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.sidebar-text {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.link {
+    color: #f23030;
+}
+
+.link:hover {
+    color:#F230A5; 
+}
+
+.link:visited {
+    color: #DD30F2;
+}
+
+.photo {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.photo-bottom {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.pullquote {
+    background-color: black;
+    padding: 20px;
+}
+
+.quote {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.source {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f23030;
+    text-align: center;
+}
+
+
 /*TOP HAT*/
 
 .nav-logo {
@@ -65,6 +136,9 @@ footer {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
+    font-size: 1.5em;
 }
 
 .red {
@@ -80,7 +154,6 @@ footer {
 .hero-container {
     position: relative;
     text-align: center;
-    color: white;
 }
 
 .hero-image{
@@ -90,24 +163,68 @@ footer {
 .overlay{
     position: absolute;
     width: 100%;
+    background-color: black;
+    opacity: .7;
+    top: 10%;
+}
+
+.overlay-caption {
+    width: 100%;
     top: 20%;
     background: black;
     opacity: .7;
+    color: white;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 
 .hero-hed{
-    padding-top: 10px;
     margin: 0 auto;
     font-size: 6em;
     font-family: "Playfair Display", serif;
     padding-bottom: 10px;
     color: white;
+    padding-top:-10px;
 }
 
+.hero-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 30px;
+}
 
-@media(max-width:550px) {
+/*Media Query*/
+
+@media(max-width: 800px) {
+    p {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .hero-hed {
+        font-size: 4em;
+    }
+
+    .chatper {
+        font-size: 1em;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 600px) {
     p {
         padding-left: 20px;
         padding-right: 10px;
+    }
+
+    .hero-hed {
+        font-size: 1.5em;
+    }
+
+    .chatper {
+        font-size: 1em;
+        padding: 20px;
     }
 }
