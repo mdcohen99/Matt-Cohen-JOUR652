@@ -2,10 +2,18 @@ body {
     background-color: black;
 }
 
-.navbar {
+.top {
     background-color: #000 !important;
     color: white !important;
     text-align: center !important;
+    font-family: Georgia, serif;
+    line-height: 180%;
+    opacity: .7;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
 }
 
 
@@ -13,6 +21,10 @@ body {
     color: white;
     margin: 0 auto;
     max-width: 800px;
+}
+
+iframe {
+    padding: 20px;
 }
 
 
@@ -176,4 +188,14 @@ img {
     .hero-sub {
         font-size: .75em;
     }
+}
+
+.section-break {
+    font-family: Georgia, serif;
+    line-height: 180%;
+    opacity: .7;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    text-align: center;
 }
