@@ -27,6 +27,10 @@ iframe {
     padding: 20px;
 }
 
+.video {
+    filter: grayscale(100%);
+}
+
 
 .headline {
     font-size: 2em;
